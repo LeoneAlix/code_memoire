@@ -1,0 +1,338 @@
+html {
+/*  background:black;
+  width: 800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+
+
+/*path {
+  stroke-width:0;
+  stroke:transparent;
+}*/
+
+/*Ce qui arrive au tracé quand tu le hover */
+
+
+[data-name*="calque"] path {
+  transition: 0.2s ease-in-out;
+  fill:transparent;
+}
+
+/*
+path.a65d2f10-4c86-41fd-81e3-c7d2a8a9f3f6:hover{
+  fill:#00A64F;
+  transition: 0.2s ease-in-out;
+} 
+
+path.a748dbad-7dda-4d82-a61c-91c8adfbfca4:hover{
+  fill:#05CA8B;
+  transition: 0.2s ease-in-out;
+} 
+
+path.ec9e7e13-8056-47e5-a94d-b9b9ecf37880:hover{
+  fill:#00FFA2;
+  transition: 0.2s ease-in-out;
+} 
+
+path.b4dbd9f5-a3a0-4241-a066-979b489d012c:hover{
+  fill:#99FF7D;
+  transition: 0.2s ease-in-out;
+} 
+
+path.bd0d1798-58d1-4ce3-8fc3-81a7666dc2ff:hover{
+  fill:#99FF7D;
+  transition: 0.2s ease-in-out;
+}
+
+*/
+
+
+[data-name="Calque 2"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 3"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 4"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+
+[data-name="Calque 5"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 6"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 7"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 8"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 9"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 10"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 11"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 12"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 13"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 14"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 15"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 16"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 17"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 18"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 19"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 20"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 21"] path:hover {
+  fill:#00A64F !important;
+}
+
+
+
+[data-name="Calque 22"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 23"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 24"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 25"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 26"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+
+
+[data-name="Calque 27"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 28"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 29"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 31"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 32"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 33"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 34"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 35"] path:hover {
+  fill:#1774FF !important;
+}
+
+
+
+[data-name="Calque 36"] path:hover {
+  fill:#0fdbba !important;
+}
+
+
+
+[data-name="Calque 37"] path:hover {
+  fill:#0fdbba !important;
+}
+
+
+
+[data-name="Calque 38"] path:hover {
+  fill:#0fdbba !important;
+}
+
+
+
+[data-name="Calque 39"] path:hover {
+  fill:#0fdbba !important;
+}
+
+
+
+
+/*g correspond aux calques
+/*la ligne suivante permet de faire un hover sur le groupe*/
+
+g {
+  pointer-events: bounding-box;
+}
+
+
+/*Ce qui arrive aux tracés quand ils sont dans un groupe hovered*/
+g[data-name*="Calque"]:hover path {
+  stroke:#0fdbba !important;
+  stroke-width:3 !important;
+  stroke-dasharray: 100 !important;
+  animation: dash 5s linear infinite;
+  /*fill:green !important;*/
+}
+
+
+
+
+
+/*g::after {
+  content:attr(data-name);
+  color:white;
+  stroke:white;
+  fill:white;
+  position:absolute;
+  font-size:20px;
+}*/
+
+/*CSS*/
+path {
+  /*décommenter ces lignes pour voir l'animation tout le temps*/
+  /*stroke-dasharray: 100 !important;
+  animation: dash 5s linear infinite;*/
+}
+
+
+/*définition de l'animation "dash"*/
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+/*tentative 3D 
+.pers250 {
+    perspective: 10px;
+    transform-style: preserve-3d;
+}
+
+svg {
+   transform: rotateX(0deg);
+}
+
+g:hover path {
+  transform: translateZ(-1px);
+}
+*/
+

@@ -1,0 +1,621 @@
+body {
+  background-color: #000000;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+  
+  padding: 10px 10px 10px 10px;
+  font-family: "Tomorrow";
+  font-weight:400;
+  width:50%;
+  max-width:600px;
+  font-size:18px;
+  line-height:1.3em;
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+  body {
+    width:70%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  body {
+    width:90%;
+  }
+}
+
+h1 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  line-height:initial;
+}
+
+
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  line-height:initial;
+}
+
+h3 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  line-height:initial;
+  padding-left: 20px;
+}
+
+h4 {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  line-height:initial;
+  padding-left: 40px;
+}
+
+/* types paragraphes alignements */
+
+.text {
+  color: #ffffff;
+  text-align:justify;
+}
+
+.recit {
+  background-color:#ffffff;
+  color: #000;
+  text-align:justify;
+  width:130%;
+  margin-left:-80px;
+  margin-right:auto;
+  padding:10px;
+  font-size: 16px;
+}
+
+.one-indent {
+  color: #ffffff;
+  text-align:justify;
+  padding-left: 20px;
+}
+
+.halftwo-indent {
+  color: #ffffff;
+  text-align:justify;
+  padding-left: 30px;
+}
+
+.two-indent {
+  color: #ffffff;
+  text-align:justify;
+  padding-left: 40px;
+}
+
+.three-indent {
+  color: #ffffff;
+  text-align:justify;
+  padding-left: 60px;
+}
+
+.four-indent {
+  color: #ffffff;
+  text-align:justify;
+  padding-left: 80px;
+}
+
+.legend {
+  color: #999999;
+  text-align:center;
+  font-weigth:bold;
+}
+
+.spacer{
+  line-height: 1.5em;
+}
+
+  /* couleurs de texte */
+
+.grey {
+  color: #999999; 
+}
+
+.green {
+  color: #00A64F;
+}
+
+.blue {
+  color: #1774FF;
+}
+
+.violet {
+  color: #FA029F;
+}
+
+.purple {
+  color: #DB022B;
+}
+
+.lubrizo {
+  color: #0fdbba;
+}
+
+.xgreen {
+  color: #00FFA2;
+}
+
+.xblue {
+  color: #00ffff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style:italic;
+}
+
+.noitalic {
+  font-style:normal;
+}
+
+
+.yellow {
+  color: yellow;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.quote-author {
+  font-style:normal;
+}
+
+.quote-author-name {
+  font-weight:400
+}
+
+.quote-author-book {
+  text-decoration:underline;
+  font-weight:200
+}
+
+
+  /* IMAGES */
+
+.illu1 {
+  width: 650px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.illu2 {
+  width: 370px;
+  display:block;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.illu3 {
+  width: 120px;
+  display:block;
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.illu4 {
+  width: 800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.illu-carte-cont {
+  width: 100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.illu-carte {
+  width: 100%;
+}
+
+.illu-data {
+  width: 100px;
+  margin-left: -51px;
+  margin-right: auto;
+  margin-top: -125px;
+  margin-bottom: 0px;
+  position:absolute;
+}
+
+
+
+
+/* CSS POUR LES CARTES FONCTIONS*/
+
+/* pc-tab définit la taille du canevas */
+.pc-tab {
+  position:relative;
+  width:1000px;
+  height:1125px;
+  margin-left:-100px;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+}
+
+
+/* nav-hor gère la ligne horizontale du haut de la matrice
+nav-col gère la colonne verticale de gauche*/
+.nav-hor {
+  position:absolute;
+  height:125px;
+  left:100px;
+  top:0;
+}
+
+
+.nav-col {
+  position:absolute;
+  width:210px;
+  top:130px;
+  left:-110px;
+}
+
+.nav-col-1 {
+  display:inline-block;
+}
+
+.nav-col-2 {
+  display:inline-block;
+}
+
+.nav-hor img {
+  background: #00A64F;
+}
+
+/* Ici on controle la taille des petites images boutons*/
+
+.tab img {
+  height:125px;
+  width:100px;
+  border-radius: 11px;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.tab img:hover {
+  transform: scale(1.1);
+}
+
+.col img {
+  height:125px;
+  width:100px;
+  border-radius: 11px;
+  margin-bottom:2px;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.col img:hover {
+  transform: scale(1.1);
+}
+
+/* pictures-cont gère la zone où s'affichent les images résultantes*/
+
+section.pictures-cont {
+  position:absolute;
+  top:130px;
+  left:100px;
+}
+
+section.pictures-cont-1 {
+  z-index:2;
+}
+
+section.pictures-cont-2 {
+  z-index:1;
+}
+
+section.pictures-cont img {
+  width:400px;
+  height:500px;
+}
+
+
+/* Ce qui est ci-dessous gère la logique d'affichage des images*/
+.pc-tab > input,
+.pc-tab section > div {
+  display: none;
+}
+
+#tab1:checked ~ section.pictures-cont-1 .tab1,
+#tab2:checked ~ section.pictures-cont-1 .tab2,
+#tab3:checked ~ section.pictures-cont-1 .tab3,
+#tab4:checked ~ section.pictures-cont-1 .tab4,
+#tab5:checked ~ section.pictures-cont-1 .tab5,
+#tab6:checked ~ section.pictures-cont-1 .tab6,
+#tab7:checked ~ section.pictures-cont-1 .tab7 {
+  display: block;
+}
+
+.tab {
+  display:inline-block;
+}
+
+#col1:checked ~ section.pictures-cont-2 .col1,
+#col2:checked ~ section.pictures-cont-2 .col2,
+#col3:checked ~ section.pictures-cont-2 .col3,
+#col4:checked ~ section.pictures-cont-2 .col4,
+#col5:checked ~ section.pictures-cont-2 .col5,
+#col6:checked ~ section.pictures-cont-2 .col6,
+#col7:checked ~ section.pictures-cont-2 .col7,
+#col8:checked ~ section.pictures-cont-2 .col8 {
+  display: block;
+}
+
+.col {
+  display:block;
+}
+
+/*ici tu peux choisir le style de l'onglet sélectionné: soit pour les "tabs", soit pour les "col"*/
+
+#tab1:checked ~ nav .tab1 img,
+#tab2:checked ~ nav .tab2 img,
+#tab3:checked ~ nav .tab3 img,
+#tab4:checked ~ nav .tab4 img,
+#tab5:checked ~ nav .tab5 img,
+#tab6:checked ~ nav .tab6 img,
+#tab7:checked ~ nav .tab7 img {
+
+  border:1px solid #0fdbba;
+  transform: scale(1.1);
+}
+
+
+#col1:checked ~ nav .col1 img,
+#col2:checked ~ nav .col2 img,
+#col3:checked ~ nav .col3 img,
+#col4:checked ~ nav .col4 img,
+#col5:checked ~ nav .col5 img,
+#col6:checked ~ nav .col6 img,
+#col7:checked ~ nav .col7 img,
+#col8:checked ~ nav .col8 img {
+  border:1px solid #0fdbba;
+  transform: scale(1.1);
+}
+
+
+/*pour l'affichage des textes*/
+
+#text-cont .function-text {
+  display: none;
+  position:absolute;
+  width:290px;
+  left:530px;
+  top:150px;
+  text-align:justify;
+
+}
+
+#tab1:checked ~ #col1:checked ~ section#text-cont .col1.tab1,
+#tab2:checked ~ #col1:checked ~ section#text-cont .col1.tab2,
+#tab3:checked ~ #col1:checked ~ section#text-cont .col1.tab3,
+#tab4:checked ~ #col1:checked ~ section#text-cont .col1.tab4,
+#tab5:checked ~ #col1:checked ~ section#text-cont .col1.tab5,
+#tab6:checked ~ #col1:checked ~ section#text-cont .col1.tab6,
+#tab7:checked ~ #col1:checked ~ section#text-cont .col1.tab7,
+#tab1:checked ~ #col2:checked ~ section#text-cont .col2.tab1,
+#tab2:checked ~ #col2:checked ~ section#text-cont .col2.tab2,
+#tab3:checked ~ #col2:checked ~ section#text-cont .col2.tab3,
+#tab4:checked ~ #col2:checked ~ section#text-cont .col2.tab4,
+#tab5:checked ~ #col2:checked ~ section#text-cont .col2.tab5,
+#tab6:checked ~ #col2:checked ~ section#text-cont .col2.tab6,
+#tab7:checked ~ #col2:checked ~ section#text-cont .col2.tab7,
+#tab1:checked ~ #col3:checked ~ section#text-cont .col3.tab1,
+#tab2:checked ~ #col3:checked ~ section#text-cont .col3.tab2,
+#tab3:checked ~ #col3:checked ~ section#text-cont .col3.tab3,
+#tab4:checked ~ #col3:checked ~ section#text-cont .col3.tab4,
+#tab5:checked ~ #col3:checked ~ section#text-cont .col3.tab5,
+#tab6:checked ~ #col3:checked ~ section#text-cont .col3.tab6,
+#tab7:checked ~ #col3:checked ~ section#text-cont .col3.tab7,
+#tab1:checked ~ #col4:checked ~ section#text-cont .col4.tab1,
+#tab2:checked ~ #col4:checked ~ section#text-cont .col4.tab2,
+#tab3:checked ~ #col4:checked ~ section#text-cont .col4.tab3,
+#tab4:checked ~ #col4:checked ~ section#text-cont .col4.tab4,
+#tab5:checked ~ #col4:checked ~ section#text-cont .col4.tab5,
+#tab6:checked ~ #col4:checked ~ section#text-cont .col4.tab6,
+#tab7:checked ~ #col4:checked ~ section#text-cont .col4.tab7,
+#tab1:checked ~ #col5:checked ~ section#text-cont .col5.tab1,
+#tab2:checked ~ #col5:checked ~ section#text-cont .col5.tab2,
+#tab3:checked ~ #col5:checked ~ section#text-cont .col5.tab3,
+#tab4:checked ~ #col5:checked ~ section#text-cont .col5.tab4,
+#tab5:checked ~ #col5:checked ~ section#text-cont .col5.tab5,
+#tab6:checked ~ #col5:checked ~ section#text-cont .col5.tab6,
+#tab7:checked ~ #col5:checked ~ section#text-cont .col5.tab7,
+#tab1:checked ~ #col6:checked ~ section#text-cont .col6.tab1,
+#tab2:checked ~ #col6:checked ~ section#text-cont .col6.tab2,
+#tab3:checked ~ #col6:checked ~ section#text-cont .col6.tab3,
+#tab4:checked ~ #col6:checked ~ section#text-cont .col6.tab4,
+#tab5:checked ~ #col6:checked ~ section#text-cont .col6.tab5,
+#tab6:checked ~ #col6:checked ~ section#text-cont .col6.tab6,
+#tab7:checked ~ #col6:checked ~ section#text-cont .col6.tab7,
+#tab1:checked ~ #col7:checked ~ section#text-cont .col7.tab1,
+#tab2:checked ~ #col7:checked ~ section#text-cont .col7.tab2,
+#tab3:checked ~ #col7:checked ~ section#text-cont .col7.tab3,
+#tab4:checked ~ #col7:checked ~ section#text-cont .col7.tab4,
+#tab5:checked ~ #col7:checked ~ section#text-cont .col7.tab5,
+#tab6:checked ~ #col7:checked ~ section#text-cont .col7.tab6,
+#tab7:checked ~ #col7:checked ~ section#text-cont .col7.tab7,
+#tab1:checked ~ #col8:checked ~ section#text-cont .col8.tab1,
+#tab2:checked ~ #col8:checked ~ section#text-cont .col8.tab2,
+#tab3:checked ~ #col8:checked ~ section#text-cont .col8.tab3,
+#tab4:checked ~ #col8:checked ~ section#text-cont .col8.tab4,
+#tab5:checked ~ #col8:checked ~ section#text-cont .col8.tab5,
+#tab6:checked ~ #col8:checked ~ section#text-cont .col8.tab6,
+#tab7:checked ~ #col8:checked ~ section#text-cont .col8.tab7 {
+  color:#00FFA2;
+  display: block;
+}
+
+/* FIN DU CSS POUR LES CARTES FONCTIONS*/
+
+
+
+
+
+.illu-mindmap {
+  width: 500px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.illu-mindmap1 {
+  width: 500px;
+  margin-left: -30px;
+  margin-right: auto;
+  margin-top: -400px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  position:absolute;
+}
+
+.illu-mindmap2 {
+  width: 500px;
+  margin-left: -70px;
+  margin-right: auto;
+  margin-top: -500px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  position:absolute;
+}
+
+.illu-mindmap3 {
+  width: 500px;
+  margin-left: -110px;
+  margin-right: auto;
+  margin-top: -600px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  position:absolute;
+}
+
+.illu-mindmap4 {
+  width: 500px;
+  margin-left: -150px;
+  margin-right: auto;
+  margin-top: -700px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  position:absolute;
+}
+
+
+  /* ANIMATIONS */
+
+.quote-pop-cont {
+  color:yellow;
+  position:relative;
+}
+
+.quote-pop {
+  display:none;
+  font-style:italic;
+  padding:10px;
+  margin:10px 0;
+  background:rgba(0,0,0,1);
+  border:1px solid white;
+  border-radius:6px;
+  font-weight:300;
+}
+
+.quote-pop:before {
+  content:"";
+  height:0;
+  width:0;
+  border:10px solid transparent;
+  border-bottom: 10px solid white;
+  position:absolute;
+  top:-20px;
+}
+
+.quote-pop-cont:hover .quote-pop {
+  display:block;
+}
+
+.link-pop-cont {
+  font-weight : 500;
+  color: #111111;
+  text-decoration-color: yellow;
+  background-color: yellow;
+}
+
+.link-pop {
+  display:none;
+  font-style:italic;
+  background:rgba(0,0,0,1);
+}
+
+.link-pop-cont:hover .link-pop {
+  display:block;
+  margin-left:-10rem;
+  margin-right:auto;
+}
+
+/*option 2 */
+
+.quote-pop-cont-2 {
+  color:yellow;
+  position:relative;
+}
+
+.quote-pop-2 {
+  display:none;
+  font-style:italic;
+  position:absolute;
+  top:25px;
+  left:0px;
+  text-align: left;
+  width: 300px;
+  width: 40vw;
+  padding:10px;
+  background:rgba(0,0,0,1);
+  border:1px solid white;
+  border-radius:6px;
+}
+
+.quote-pop-cont-2:hover .quote-pop-2 {
+  display:block;
+}
