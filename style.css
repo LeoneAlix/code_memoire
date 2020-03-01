@@ -614,7 +614,7 @@ section.pictures-cont img {
 
 .link-pop-cont-recit:hover .link-pop {
   display:block;
-  margin-left:200rem;
+  margin-left:0rem;
   margin-right:auto;
 }
 
