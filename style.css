@@ -81,6 +81,8 @@ h4 {
   margin-right:auto;
   padding:10px;
   font-size: 16px;
+  border-radius: 11px;
+  border-color:#0fdbba;
 }
 
 .one-indent {
@@ -550,6 +552,12 @@ section.pictures-cont img {
   position:relative;
 }
 
+.quote-pop-cont-recit {
+  color:yellow;
+  background-color:black;
+  position:relative;
+}
+
 .quote-pop {
   display:none;
   font-style:italic;
@@ -571,7 +579,7 @@ section.pictures-cont img {
   top:-20px;
 }
 
-.quote-pop-cont:hover .quote-pop {
+.quote-pop-cont-recit:hover .quote-pop {
   display:block;
 }
 
@@ -582,15 +590,31 @@ section.pictures-cont img {
   background-color: yellow;
 }
 
+.link-pop-cont-recit {
+  font-weight : 500;
+  color: #111111;
+  text-decoration-color: yellow;
+  background-color: yellow;
+}
+
+
 .link-pop {
   display:none;
   font-style:italic;
   background:rgba(0,0,0,1);
 }
 
+
+
 .link-pop-cont:hover .link-pop {
   display:block;
   margin-left:-10rem;
+  margin-right:auto;
+}
+
+.link-pop-cont-recit:hover .link-pop {
+  display:block;
+  margin-left:200rem;
   margin-right:auto;
 }
 
