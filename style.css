@@ -129,7 +129,7 @@ h4 {
 .legend {
   color: #999999;
   text-align:center;
-  font-weight:bold;
+  font-weight:200;
 }
 
 .spacer{
@@ -228,7 +228,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .illu2 {
@@ -237,7 +237,7 @@ h4 {
   margin-left: 2%;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .illu3 {
@@ -744,6 +744,10 @@ section.pictures-cont img {
   border-bottom: 10px solid white;
   position:absolute;
   top:-20px;
+}
+
+.quote-pop-cont:hover .quote-pop {
+  display:block;
 }
 
 .quote-pop-cont-recit:hover .quote-pop {
