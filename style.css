@@ -613,6 +613,7 @@ section.pictures-cont img {
 
 .menu-control:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 #no-soulign {
@@ -632,6 +633,7 @@ section.pictures-cont img {
 
 .illu-mindmap-mini:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .illu-lubri2{
@@ -646,6 +648,7 @@ section.pictures-cont img {
 
 .illu-lubri2:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 
