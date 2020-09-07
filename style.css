@@ -293,7 +293,14 @@ h4 {
   position:absolute;
 }
 
-
+.illu-schema {
+  width: 150%;
+  display:block;
+  margin-left: -20%;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
 
 /* CSS POUR LES CARTES FONCTIONS*/
